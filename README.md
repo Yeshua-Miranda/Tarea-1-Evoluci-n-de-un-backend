@@ -40,25 +40,25 @@ body: {"year": 2026}
 DELETE/api/books/:id
 
 ## Reflecion de ingieneria 
-¿Qué problema intenta resolver una arquitectura en capas?
+**¿Qué problema intenta resolver una arquitectura en capas?**
 Resuelve el acoplamienta y la sobrecarga del código, al separar las responsabilidades se evita el código espaguetti siendo código escalable 
 
-¿Qué consecuencias tendría colocar toda la lógica en el Controller?
+**¿Qué consecuencias tendría colocar toda la lógica en el Controller?**
 Sería un codigo muy dificil de leer, además que si hacemos un cambio como en la base de datos, debemos cambiar absolutamente todo
 
-¿Qué ventaja obtienes al separar la lógica de negocio del acceso a datos?
+**¿Qué ventaja obtienes al separar la lógica de negocio del acceso a datos?**
 Este te permite una gran flexibilidad al momento de cambiar de infrestructura, además que te permite hacer pruebas sin afectar lo demás
 
-Si cambiaras PostgreSQL por MongoDB, ¿qué componentes deberían modificarse?
+**Si cambiaras PostgreSQL por MongoDB, ¿qué componentes deberían modificarse?**
 Solamente el repository, cambiando las consultas para que sean las debidas en MongoDB
 
-¿Existe una arquitectura "perfecta" para cualquier sistema? ¿Por qué?
+**¿Existe una arquitectura "perfecta" para cualquier sistema? ¿Por qué?**
 No, la arquitectura usada depende totalmente de las necesidades del proyecto, esta que es una buena estructura, pero tal vez muy grande para proyectos más pequeños
 
-¿En qué momento agregar más capas puede comenzar a generar complejidad innecesaria?
+**¿En qué momento agregar más capas puede comenzar a generar complejidad innecesaria?**
 Cuando el proyecto es sencillo y cuando agregas las nuevas capas solamente son vacios sin utilidad real
 
-¿Puedes identificar responsabilidades diferentes en una actividad cotidiana que podrían separarse como en un Backend?
+**¿Puedes identificar responsabilidades diferentes en una actividad cotidiana que podrían separarse como en un Backend?**
 Para exponer el caso lo hare con un restarurante
 Cuando llegas, el host o recepcionista actúa como el Router: no te prepara la comida ni toma tu orden, simplemente evalúa a dónde vas y te dirige al lugar correcto.
 
