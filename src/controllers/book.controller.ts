@@ -9,7 +9,7 @@ import {
 
 export function getAllBooks(req: Request, res: Response,next: NextFunction) {
 
-  // throw new Error("Simulando una caída de la base de datos");
+  //throw new Error("Simulando una caída de la base de datos");
 
   try {
     const author = req.query.author as string;
