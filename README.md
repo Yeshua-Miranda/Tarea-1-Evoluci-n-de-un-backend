@@ -39,7 +39,7 @@ body: {"year": 2026}
 5.Elimina un libro del sistema.
 DELETE/api/books/:id
 
-## Reflecion de ingieneria 
+## Reflexion de ingieneria 
 **¿Qué problema intenta resolver una arquitectura en capas?**
 Resuelve el acoplamienta y la sobrecarga del código, al separar las responsabilidades se evita el código espaguetti siendo código escalable 
 
